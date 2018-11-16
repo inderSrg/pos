@@ -1,0 +1,35 @@
+{
+  "name": "pos",
+  "version": "1.0.0",
+  "description": "initial commit with inital setup requirements",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node ./index.js",
+    "lint": "eslint . --ext .js,.jsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inderSrg/pos.git"
+  },
+  "author": "inder.srg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inderSrg/pos/issues"
+  },
+  "homepage": "https://github.com/inderSrg/pos#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}
